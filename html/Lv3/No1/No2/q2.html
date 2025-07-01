@@ -6,6 +6,40 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <h1>お問い合わせフォーム</h1>
+    <form action="#" method="post">
+        <table>
+            <tbody>
+                <tr>
+                    お名前：<br>
+                    <input type="text"><br>
+                </tr>
+                <tr>
+                    メールアドレス：<br>
+                    <input type="email"><br>
+                </tr>
+                <tr>
+                    <td>
+                        お問い合わせ種別：<br>
+                        <select name="select" id="select">
+                            <option value="service">サービスについて</option>
+                            <option value="main">メイン</option>
+                        </select><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        お問い合わせ内容：<br>
+                        <textarea name="content" id="content"></textarea><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label><input type="radio">個人情報の取り扱いに同意する</label>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
 </body>
 </html>
